@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "STM32L433CBT Development Board"
 Date "2020-03-14"
-Rev "1"
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -374,29 +374,10 @@ Wire Wire Line
 	1500 3550 1200 3550
 Text Label 1200 3550 2    50   ~ 0
 PB11
-$Comp
-L Connector:USB_C_Plug_USB2.0 P1
-U 1 1 5E6E8EF3
-P 7250 1500
-F 0 "P1" H 7357 2367 50  0000 C CNN
-F 1 "USB_C_Plug_USB2.0" H 7357 2276 50  0000 C CNN
-F 2 "" H 7400 1500 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7400 1500 50  0001 C CNN
-	1    7250 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7850 1600 8150 1600
-Text Label 8150 1600 0    50   ~ 0
-PA12
-Wire Wire Line
-	7850 1400 7900 1400
-Text Label 8150 1400 0    50   ~ 0
-PA11
 Wire Wire Line
 	2700 3650 3000 3650
-Text Label 3000 3650 0    50   ~ 0
-PA12
 Wire Wire Line
 	2700 3550 3000 3550
 Text Label 3000 3550 0    50   ~ 0
@@ -414,8 +395,6 @@ F 3 "" H 7250 2600 50  0001 C CNN
 	1    7250 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6950 2400 6950 2450
 Wire Wire Line
 	6950 2450 7250 2450
 Connection ~ 7250 2450
@@ -615,17 +594,6 @@ PA15
 Wire Wire Line
 	2700 3950 3000 3950
 $Comp
-L power:GND #PWR038
-U 1 1 5E74BEE6
-P 8200 4600
-F 0 "#PWR038" H 8200 4350 50  0001 C CNN
-F 1 "GND" H 8205 4427 50  0000 C CNN
-F 2 "" H 8200 4600 50  0001 C CNN
-F 3 "" H 8200 4600 50  0001 C CNN
-	1    8200 4600
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x03_Counter_Clockwise J4
 U 1 1 5E773AB2
 P 5800 1000
@@ -823,62 +791,6 @@ F 3 "" H 3100 7550 50  0001 C CNN
 	1    3100 7600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Micro_SD_Card J6
-U 1 1 5E7F0790
-P 7150 4000
-F 0 "J6" H 7100 4717 50  0000 C CNN
-F 1 "Micro_SD_Card" H 7100 4626 50  0000 C CNN
-F 2 "" H 8300 4300 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 7150 4000 50  0001 C CNN
-	1    7150 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 4000 5850 4000
-Wire Wire Line
-	5850 4000 5850 3950
-$Comp
-L power:+3.3V #PWR029
-U 1 1 5E80064C
-P 5850 3950
-F 0 "#PWR029" H 5850 3800 50  0001 C CNN
-F 1 "+3.3V" H 5865 4123 50  0000 C CNN
-F 2 "" H 5850 3950 50  0001 C CNN
-F 3 "" H 5850 3950 50  0001 C CNN
-	1    5850 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 4100 5850 4100
-Text Label 5850 4100 2    50   ~ 0
-PA5
-Wire Wire Line
-	6250 4200 5600 4200
-Wire Wire Line
-	5600 4200 5600 4300
-$Comp
-L power:GND #PWR026
-U 1 1 5E80FDA4
-P 5600 4300
-F 0 "#PWR026" H 5600 4050 50  0001 C CNN
-F 1 "GND" H 5605 4127 50  0000 C CNN
-F 2 "" H 5600 4300 50  0001 C CNN
-F 3 "" H 5600 4300 50  0001 C CNN
-	1    5600 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 4300 5850 4300
-Text Label 5850 4300 0    50   ~ 0
-PA7
-Wire Wire Line
-	6250 4400 5850 4400
-Text Label 5850 4400 0    50   ~ 0
-PA6
-NoConn ~ 6250 3700
-NoConn ~ 6250 3800
-NoConn ~ 6250 3900
 NoConn ~ 3400 6300
 NoConn ~ 3400 6200
 NoConn ~ 3400 6100
@@ -895,8 +807,6 @@ Wire Notes Line
 	6650 500  6650 3150
 Wire Notes Line
 	5050 3150 8500 3150
-Wire Wire Line
-	7950 4600 8200 4600
 Wire Notes Line
 	8500 500  8500 4850
 Wire Notes Line
@@ -1199,7 +1109,7 @@ U 1 1 5E818E63
 P 750 7000
 F 0 "J1" H 807 7467 50  0000 C CNN
 F 1 "USB_B_Micro" H 807 7376 50  0000 C CNN
-F 2 "" H 900 6950 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 900 6950 50  0001 C CNN
 F 3 "~" H 900 6950 50  0001 C CNN
 	1    750  7000
 	1    0    0    -1  
@@ -1544,44 +1454,13 @@ F 3 "https://www.adafruit.com/product/1938" H 7950 5275 50  0001 L TNN
 $EndComp
 Wire Wire Line
 	7550 5650 7000 5650
-$Comp
-L LED:NeoPixel_THT D8
-U 1 1 5EA492B2
-P 9050 5650
-F 0 "D8" H 9394 5696 50  0000 L CNN
-F 1 "NeoPixel_THT" H 9394 5605 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9100 5350 50  0001 L TNN
-F 3 "https://www.adafruit.com/product/1938" H 9150 5275 50  0001 L TNN
-	1    9050 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8750 5650 8150 5650
-$Comp
-L LED:NeoPixel_THT D11
-U 1 1 5EA5EEB2
-P 10350 5650
-F 0 "D11" H 10694 5696 50  0000 L CNN
-F 1 "NeoPixel_THT" H 10694 5605 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10400 5350 50  0001 L TNN
-F 3 "https://www.adafruit.com/product/1938" H 10450 5275 50  0001 L TNN
-	1    10350 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10050 5650 9350 5650
 NoConn ~ 10650 5650
 Wire Wire Line
 	6700 5950 6700 6100
 Wire Wire Line
 	6700 6100 7850 6100
-Wire Wire Line
-	10350 6100 10350 5950
-Wire Wire Line
-	9050 5950 9050 6100
-Connection ~ 9050 6100
-Wire Wire Line
-	9050 6100 10350 6100
 Wire Wire Line
 	7850 5950 7850 6100
 Connection ~ 7850 6100
@@ -1589,9 +1468,6 @@ Wire Wire Line
 	7850 6100 8550 6100
 Wire Wire Line
 	8550 6100 8550 6250
-Connection ~ 8550 6100
-Wire Wire Line
-	8550 6100 9050 6100
 $Comp
 L power:GND #PWR033
 U 1 1 5EB1D5F2
@@ -1612,22 +1488,12 @@ Wire Wire Line
 Wire Wire Line
 	6700 5200 7850 5200
 Wire Wire Line
-	10350 5200 10350 5350
-Wire Wire Line
-	9050 5350 9050 5200
-Connection ~ 9050 5200
-Wire Wire Line
-	9050 5200 10350 5200
-Wire Wire Line
 	7850 5350 7850 5200
 Connection ~ 7850 5200
 Wire Wire Line
 	7850 5200 8600 5200
 Wire Wire Line
 	8600 5200 8600 5050
-Connection ~ 8600 5200
-Wire Wire Line
-	8600 5200 9050 5200
 $Comp
 L power:+5V #PWR034
 U 1 1 5EBA5A13
@@ -1650,8 +1516,6 @@ Text Label 8850 1550 2    50   ~ 0
 PA4
 Text Label 8850 1750 2    50   ~ 0
 PA5
-NoConn ~ 7850 1100
-NoConn ~ 7850 1200
 Wire Wire Line
 	2300 1000 2200 1000
 Wire Wire Line
@@ -1750,17 +1614,6 @@ Text Label 6200 7100 0    50   ~ 0
 OSC32_IN
 Text Label 6200 7550 0    50   ~ 0
 OSC32_OUT
-$Comp
-L Device:Crystal Y1
-U 1 1 5EE0C574
-P 5750 6500
-F 0 "Y1" V 5704 6631 50  0000 L CNN
-F 1 "Crystal" V 5795 6631 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_SeikoEpson_MA505-2Pin_12.7x5.1mm" H 5750 6500 50  0001 C CNN
-F 3 "~" H 5750 6500 50  0001 C CNN
-	1    5750 6500
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:C_Small C9
 U 1 1 5EE0C57A
@@ -1928,17 +1781,87 @@ Wire Wire Line
 Connection ~ 5300 5900
 Wire Wire Line
 	5300 5900 5350 5900
-Wire Wire Line
-	7850 900  7850 850 
 $Comp
 L power:+5V #PWR0103
 U 1 1 5F009612
-P 7850 850
-F 0 "#PWR0103" H 7850 700 50  0001 C CNN
-F 1 "+5V" H 7865 1023 50  0000 C CNN
-F 2 "" H 7850 850 50  0001 C CNN
-F 3 "" H 7850 850 50  0001 C CNN
-	1    7850 850 
+P 7600 1050
+F 0 "#PWR0103" H 7600 900 50  0001 C CNN
+F 1 "+5V" H 7615 1223 50  0000 C CNN
+F 2 "" H 7600 1050 50  0001 C CNN
+F 3 "" H 7600 1050 50  0001 C CNN
+	1    7600 1050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:USB_B_Micro J7
+U 1 1 5F02B73D
+P 7200 1400
+F 0 "J7" H 7257 1867 50  0000 C CNN
+F 1 "USB_B_Micro" H 7257 1776 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 7350 1350 50  0001 C CNN
+F 3 "~" H 7350 1350 50  0001 C CNN
+	1    7200 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2000 7100 2000
+Wire Wire Line
+	7100 2000 7100 1800
+Wire Wire Line
+	6950 2000 6950 2450
+Wire Wire Line
+	7200 2400 7250 2400
+Wire Wire Line
+	7500 1400 7900 1400
+Wire Wire Line
+	7500 1500 7850 1500
+Wire Wire Line
+	7850 1500 7850 1600
+NoConn ~ 7500 1600
+Wire Wire Line
+	7500 1200 7600 1200
+Wire Wire Line
+	7600 1050 7600 1150
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5F175D50
+P 7950 1050
+F 0 "#FLG02" H 7950 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 7950 1223 50  0000 C CNN
+F 2 "" H 7950 1050 50  0001 C CNN
+F 3 "~" H 7950 1050 50  0001 C CNN
+	1    7950 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1050 7950 1150
+Wire Wire Line
+	7950 1150 7600 1150
+Connection ~ 7600 1150
+Wire Wire Line
+	7600 1150 7600 1200
+Wire Wire Line
+	7200 1800 7200 2400
+NoConn ~ 8750 5650
+$Comp
+L Device:Crystal Y1
+U 1 1 5E6F8D33
+P 5750 6500
+F 0 "Y1" V 5704 6631 50  0000 L CNN
+F 1 "Crystal" V 5795 6631 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_SeikoEpson_MA505-2Pin_12.7x5.1mm" H 5750 6500 50  0001 C CNN
+F 3 "~" H 5750 6500 50  0001 C CNN
+	1    5750 6500
+	0    1    1    0   
+$EndComp
+Text Label 3000 3650 0    50   ~ 0
+PA12
+Text Label 8150 1400 0    50   ~ 0
+PA12
+Text Label 8150 1600 0    50   ~ 0
+PA11
+Text Label 7600 1400 0    50   ~ 0
+D+
+Text Label 7600 1500 0    50   ~ 0
+D-
 $EndSCHEMATC
