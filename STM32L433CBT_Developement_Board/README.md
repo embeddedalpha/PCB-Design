@@ -4,7 +4,6 @@
 
 ![STM32L433CBT_Dev_Board1234](https://user-images.githubusercontent.com/38166489/76962605-8a2baf00-6945-11ea-9ed0-853a9768be50.png)
 
-<br>
 
 <h3>More views</h3>
 
