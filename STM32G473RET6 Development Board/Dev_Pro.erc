@@ -1,0 +1,274 @@
+ERC report (4/6/2020 3:11:38 PM, Encoding UTF8 )
+
+***** Sheet /
+
+***** Sheet /Power/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(113.03 mm, 82.55 mm): Pin 3 (Power output) of component U1 is connected to 
+    @(72.39 mm, 109.22 mm): pin 29 (Unspecified) of component IC1 (net 4).
+
+***** Sheet /MCU/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(34.29 mm, 88.90 mm): Pin 15 (Unspecified) of component IC1 is connected to 
+    @(71.12 mm, 76.20 mm): pin 4 (Passive) of component J8 (net 1).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(44.45 mm, 30.48 mm): Pin 63 (Unspecified) of component IC1 is connected to 
+    @(80.01 mm, 29.21 mm): pin 2 (Passive) of component C19 (net 1).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(67.31 mm, 109.22 mm): Pin 27 (Unspecified) of component IC1 is connected to 
+    @(113.03 mm, 124.46 mm): pin 2 (Power input) of component U3 (net 1).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(77.47 mm, 109.22 mm): Pin 31 (Unspecified) of component IC1 is connected to 
+    @(110.49 mm, 124.46 mm): pin 25 (Power input) of component U3 (net 1).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(87.63 mm, 55.88 mm): Pin 47 (Unspecified) of component IC1 is connected to 
+    @(33.02 mm, 162.56 mm): pin 2 (Passive) of component C4 (net 1).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(41.91 mm, 30.48 mm): Pin 64 (Unspecified) of component IC1 is connected to 
+    @(71.12 mm, 71.12 mm): pin 1 (Passive) of component R18 (net 4).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(34.29 mm, 53.34 mm): Pin 1 (Unspecified) of component IC1 is connected to 
+    @(113.03 mm, 82.55 mm): pin 3 (Power output) of component U1 (net 4).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(72.39 mm, 109.22 mm): Pin 29 (Unspecified) of component IC1 is connected to 
+    @(127.00 mm, 24.13 mm): pin 1 (Passive) of component C22 (net 4).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(87.63 mm, 53.34 mm): Pin 48 (Unspecified) of component IC1 is connected to 
+    @(80.01 mm, 109.22 mm): pin 32 (Unspecified) of component IC1 (net 4).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(80.01 mm, 109.22 mm): Pin 32 (Unspecified) of component IC1 is connected to 
+    @(69.85 mm, 109.22 mm): pin 28 (Unspecified) of component IC1 (net 4).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(69.85 mm, 109.22 mm): Pin 28 (Unspecified) of component IC1 is connected to 
+    @(34.29 mm, 91.44 mm): pin 16 (Unspecified) of component IC1 (net 4).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(34.29 mm, 91.44 mm): Pin 16 (Unspecified) of component IC1 is connected to 
+    @(44.45 mm, 31.75 mm): pin 1 (Passive) of component J4 (net 4).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(34.29 mm, 81.28 mm): Pin 12 (Unspecified) of component IC1 is connected to 
+    @(83.82 mm, 29.21 mm): pin 2 (Passive) of component R6 (net 5).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(34.29 mm, 73.66 mm): Pin 9 (Unspecified) of component IC1 is connected to 
+    @(151.13 mm, 71.12 mm): pin 3 (Passive) of component J6 (net 8).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(34.29 mm, 55.88 mm): Pin 2 (Unspecified) of component IC1 is connected to 
+    @(151.13 mm, 66.04 mm): pin 1 (Passive) of component J6 (net 9).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(80.01 mm, 30.48 mm): Pin 49 (Unspecified) of component IC1 is connected to 
+    @(107.95 mm, 67.31 mm): pin 1 (Passive) of component J3 (net 10).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(77.47 mm, 30.48 mm): Pin 50 (Unspecified) of component IC1 is connected to 
+    @(71.12 mm, 71.12 mm): pin 2 (Passive) of component J8 (net 11).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(57.15 mm, 109.22 mm): Pin 23 (Unspecified) of component IC1 is connected to 
+    @(125.73 mm, 96.52 mm): pin 21 (Output) of component U3 (net 20).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(54.61 mm, 109.22 mm): Pin 22 (Unspecified) of component IC1 is connected to 
+    @(125.73 mm, 93.98 mm): pin 20 (Input) of component U3 (net 21).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(34.29 mm, 58.42 mm): Pin 3 (Unspecified) of component IC1 is connected to 
+    @(149.86 mm, 33.02 mm): pin 1 (Passive) of component Y1 (net 22).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(46.99 mm, 30.48 mm): Pin 62 (Unspecified) of component IC1 is connected to 
+    @(107.95 mm, 100.33 mm): pin 14 (Passive) of component J3 (net 24).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(49.53 mm, 30.48 mm): Pin 61 (Unspecified) of component IC1 is connected to 
+    @(107.95 mm, 97.79 mm): pin 13 (Passive) of component J3 (net 25).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(54.61 mm, 30.48 mm): Pin 59 (Unspecified) of component IC1 is connected to 
+    @(107.95 mm, 92.71 mm): pin 11 (Passive) of component J3 (net 27).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(57.15 mm, 30.48 mm): Pin 58 (Unspecified) of component IC1 is connected to 
+    @(107.95 mm, 90.17 mm): pin 10 (Passive) of component J3 (net 28).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(59.69 mm, 30.48 mm): Pin 57 (Unspecified) of component IC1 is connected to 
+    @(107.95 mm, 87.63 mm): pin 9 (Passive) of component J3 (net 29).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(62.23 mm, 30.48 mm): Pin 56 (Unspecified) of component IC1 is connected to 
+    @(107.95 mm, 85.09 mm): pin 8 (Passive) of component J3 (net 30).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(64.77 mm, 30.48 mm): Pin 55 (Unspecified) of component IC1 is connected to 
+    @(107.95 mm, 82.55 mm): pin 7 (Passive) of component J3 (net 31).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(87.63 mm, 91.44 mm): Pin 33 (Unspecified) of component IC1 is connected to 
+    @(151.13 mm, 111.76 mm): pin 19 (Passive) of component J6 (net 34).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(87.63 mm, 88.90 mm): Pin 34 (Unspecified) of component IC1 is connected to 
+    @(151.13 mm, 114.30 mm): pin 20 (Passive) of component J6 (net 35).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(87.63 mm, 86.36 mm): Pin 35 (Unspecified) of component IC1 is connected to 
+    @(151.13 mm, 116.84 mm): pin 21 (Passive) of component J6 (net 36).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(87.63 mm, 83.82 mm): Pin 36 (Unspecified) of component IC1 is connected to 
+    @(151.13 mm, 119.38 mm): pin 22 (Passive) of component J6 (net 37).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(87.63 mm, 73.66 mm): Pin 40 (Unspecified) of component IC1 is connected to 
+    @(107.95 mm, 118.11 mm): pin 21 (Passive) of component J3 (net 40).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(87.63 mm, 68.58 mm): Pin 42 (Unspecified) of component IC1 is connected to 
+    @(107.95 mm, 113.03 mm): pin 19 (Passive) of component J3 (net 42).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(87.63 mm, 66.04 mm): Pin 43 (Unspecified) of component IC1 is connected to 
+    @(165.10 mm, 26.67 mm): pin 4 (Passive) of component SW2 (net 43).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(87.63 mm, 63.50 mm): Pin 44 (Unspecified) of component IC1 is connected to 
+    @(58.42 mm, 44.45 mm): pin 4 (Passive) of component Q1 (net 44).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(87.63 mm, 60.96 mm): Pin 45 (Unspecified) of component IC1 is connected to 
+    @(107.95 mm, 105.41 mm): pin 16 (Passive) of component J3 (net 45).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(151.13 mm, 110.49 mm): Pin 2 (Passive) of component C15 is connected to 
+    @(34.29 mm, 68.58 mm): pin 7 (Unspecified) of component IC1 (net 46).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(34.29 mm, 68.58 mm): Pin 7 (Unspecified) of component IC1 is connected to 
+    @(142.24 mm, 104.14 mm): pin 1 (Passive) of component R1 (net 46).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(34.29 mm, 66.04 mm): Pin 6 (Unspecified) of component IC1 is connected to 
+    @(168.91 mm, 80.01 mm): pin 1 (Passive) of component R20 (net 47).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(166.37 mm, 45.72 mm): Pin 1 (Passive) of component R19 is connected to 
+    @(34.29 mm, 60.96 mm): pin 4 (Unspecified) of component IC1 (net 48).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(138.43 mm, 62.23 mm): Pin 1 (Passive) of component C11 is connected to 
+    @(34.29 mm, 63.50 mm): pin 5 (Unspecified) of component IC1 (net 50).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(34.29 mm, 63.50 mm): Pin 5 (Unspecified) of component IC1 is connected to 
+    @(149.86 mm, 67.31 mm): pin 1 (Passive) of component Y2 (net 50).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(52.07 mm, 109.22 mm): Pin 21 (Unspecified) of component IC1 is connected to 
+    @(85.09 mm, 83.82 mm): pin 24 (Bidirectional) of component U4 (net 52).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(49.53 mm, 109.22 mm): Pin 20 (Unspecified) of component IC1 is connected to 
+    @(85.09 mm, 86.36 mm): pin 9 (Bidirectional) of component U4 (net 53).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(46.99 mm, 109.22 mm): Pin 19 (Unspecified) of component IC1 is connected to 
+    @(85.09 mm, 88.90 mm): pin 23 (Input) of component U4 (net 54).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(44.45 mm, 109.22 mm): Pin 18 (Unspecified) of component IC1 is connected to 
+    @(85.09 mm, 91.44 mm): pin 22 (Input) of component U4 (net 55).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(41.91 mm, 109.22 mm): Pin 17 (Unspecified) of component IC1 is connected to 
+    @(151.13 mm, 86.36 mm): pin 9 (Passive) of component J6 (net 56).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(34.29 mm, 78.74 mm): Pin 11 (Unspecified) of component IC1 is connected to 
+    @(151.13 mm, 76.20 mm): pin 5 (Passive) of component J6 (net 57).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(74.93 mm, 109.22 mm): Pin 30 (Unspecified) of component IC1 is unconnected.
+
+***** Sheet /USB Power Delivery/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(146.05 mm, 102.87 mm): Pin A5 (Bidirectional) of component J2 is connected to 
+    @(54.61 mm, 30.48 mm): pin 59 (Unspecified) of component IC1 (net 27).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(171.45 mm, 73.66 mm): Pin 1 (Passive) of component R9 is connected to 
+    @(87.63 mm, 58.42 mm): pin 46 (Unspecified) of component IC1 (net 33).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(96.52 mm, 80.01 mm): Pin 2 (Input) of component Q3 is connected to 
+    @(87.63 mm, 60.96 mm): pin 45 (Unspecified) of component IC1 (net 45).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(146.05 mm, 97.79 mm): Pin A4 (Power input) of component J2 is not driven (Net 65).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(59.69 mm, 81.28 mm): Pin 12 (Passive) of component U2 is unconnected.
+
+***** Sheet /USB_to_UART/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(99.06 mm, 29.21 mm): Pin 2 (Passive) of component C20 is connected to 
+    @(34.29 mm, 88.90 mm): pin 15 (Unspecified) of component IC1 (net 1).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(80.01 mm, 29.21 mm): Pin 2 (Passive) of component C19 is connected to 
+    @(67.31 mm, 109.22 mm): pin 27 (Unspecified) of component IC1 (net 1).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(113.03 mm, 124.46 mm): Pin 2 (Power input) of component U3 is connected to 
+    @(77.47 mm, 109.22 mm): pin 31 (Unspecified) of component IC1 (net 1).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(110.49 mm, 124.46 mm): Pin 25 (Power input) of component U3 is connected to 
+    @(87.63 mm, 55.88 mm): pin 47 (Unspecified) of component IC1 (net 1).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(148.59 mm, 69.85 mm): Pin 1 (Passive) of component R13 is connected to 
+    @(41.91 mm, 30.48 mm): pin 64 (Unspecified) of component IC1 (net 4).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(127.00 mm, 24.13 mm): Pin 1 (Passive) of component C22 is connected to 
+    @(87.63 mm, 53.34 mm): pin 48 (Unspecified) of component IC1 (net 4).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(138.43 mm, 88.90 mm): Pin 1 (Passive) of component D3 is connected to 
+    @(57.15 mm, 109.22 mm): pin 23 (Unspecified) of component IC1 (net 20).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(55.88 mm, 109.22 mm): Pin A4 (Power input) of component P1 is not driven (Net 77).
+
+***** Sheet /Connectors/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(71.12 mm, 76.20 mm): Pin 4 (Passive) of component J8 is connected to 
+    @(44.45 mm, 30.48 mm): pin 63 (Unspecified) of component IC1 (net 1).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(151.13 mm, 81.28 mm): Pin 7 (Passive) of component J6 is connected to 
+    @(34.29 mm, 83.82 mm): pin 13 (Unspecified) of component IC1 (net 6).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(44.45 mm, 34.29 mm): Pin 2 (Passive) of component J4 is connected to 
+    @(80.01 mm, 30.48 mm): pin 49 (Unspecified) of component IC1 (net 10).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(44.45 mm, 36.83 mm): Pin 3 (Passive) of component J4 is connected to 
+    @(77.47 mm, 30.48 mm): pin 50 (Unspecified) of component IC1 (net 11).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(107.95 mm, 72.39 mm): Pin 3 (Passive) of component J3 is connected to 
+    @(74.93 mm, 30.48 mm): pin 51 (Unspecified) of component IC1 (net 12).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(107.95 mm, 74.93 mm): Pin 4 (Passive) of component J3 is connected to 
+    @(72.39 mm, 30.48 mm): pin 52 (Unspecified) of component IC1 (net 13).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(107.95 mm, 77.47 mm): Pin 5 (Passive) of component J3 is connected to 
+    @(69.85 mm, 30.48 mm): pin 53 (Unspecified) of component IC1 (net 14).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(151.13 mm, 73.66 mm): Pin 4 (Passive) of component J6 is connected to 
+    @(34.29 mm, 76.20 mm): pin 10 (Unspecified) of component IC1 (net 15).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(151.13 mm, 68.58 mm): Pin 2 (Passive) of component J6 is connected to 
+    @(34.29 mm, 71.12 mm): pin 8 (Unspecified) of component IC1 (net 16).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(151.13 mm, 109.22 mm): Pin 18 (Passive) of component J6 is connected to 
+    @(64.77 mm, 109.22 mm): pin 26 (Unspecified) of component IC1 (net 17).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(151.13 mm, 106.68 mm): Pin 17 (Passive) of component J6 is connected to 
+    @(62.23 mm, 109.22 mm): pin 25 (Unspecified) of component IC1 (net 18).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(151.13 mm, 104.14 mm): Pin 16 (Passive) of component J6 is connected to 
+    @(59.69 mm, 109.22 mm): pin 24 (Unspecified) of component IC1 (net 19).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(107.95 mm, 80.01 mm): Pin 6 (Passive) of component J3 is connected to 
+    @(67.31 mm, 30.48 mm): pin 54 (Unspecified) of component IC1 (net 23).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(82.55 mm, 24.13 mm): Pin 2 (Passive) of component R16 is connected to 
+    @(52.07 mm, 30.48 mm): pin 60 (Unspecified) of component IC1 (net 26).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(107.95 mm, 123.19 mm): Pin 23 (Passive) of component J3 is connected to 
+    @(87.63 mm, 78.74 mm): pin 38 (Unspecified) of component IC1 (net 32).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(151.13 mm, 121.92 mm): Pin 23 (Passive) of component J6 is connected to 
+    @(87.63 mm, 81.28 mm): pin 37 (Unspecified) of component IC1 (net 38).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(107.95 mm, 120.65 mm): Pin 22 (Passive) of component J3 is connected to 
+    @(87.63 mm, 76.20 mm): pin 39 (Unspecified) of component IC1 (net 39).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(107.95 mm, 115.57 mm): Pin 20 (Passive) of component J3 is connected to 
+    @(87.63 mm, 71.12 mm): pin 41 (Unspecified) of component IC1 (net 41).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(107.95 mm, 110.49 mm): Pin 18 (Passive) of component J3 is connected to 
+    @(87.63 mm, 66.04 mm): pin 43 (Unspecified) of component IC1 (net 43).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(107.95 mm, 107.95 mm): Pin 17 (Passive) of component J3 is connected to 
+    @(87.63 mm, 63.50 mm): pin 44 (Unspecified) of component IC1 (net 44).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(151.13 mm, 96.52 mm): Pin 13 (Passive) of component J6 is connected to 
+    @(52.07 mm, 109.22 mm): pin 21 (Unspecified) of component IC1 (net 52).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(151.13 mm, 88.90 mm): Pin 10 (Passive) of component J6 is connected to 
+    @(44.45 mm, 109.22 mm): pin 18 (Unspecified) of component IC1 (net 55).
+
+***** Sheet /MPU9250/
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(71.12 mm, 71.12 mm): Pin 1 (Passive) of component R18 is connected to 
+    @(34.29 mm, 53.34 mm): pin 1 (Unspecified) of component IC1 (net 4).
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(120.65 mm, 83.82 mm): Pin 12 (Output) of component U4 is connected to 
+    @(34.29 mm, 86.36 mm): pin 14 (Unspecified) of component IC1 (net 7).
+
+ ** ERC messages: 87  Errors 0  Warnings 87
