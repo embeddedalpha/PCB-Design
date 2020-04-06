@@ -1,0 +1,8 @@
+title_block/title,title_block/company,title_block/rev,title_block/date,title_block/source,title_block/comment/0/_number,title_block/comment/0/_value,title_block/comment/1/_number,title_block/comment/1/_value,title_block/comment/2/_number,title_block/comment/2/_value,title_block/comment/3/_number,title_block/comment/3/_value,_number,_name,_tstamps
+,,,2020-04-02,Dev_Pro.sch,1,,2,,3,,4,,1,/,/
+,,,,Power.sch,1,,2,,3,,4,,2,/Power/,/5EA17344/
+STM32G473RETx,,1,,MCU.sch,1,,2,,3,,4,,3,/MCU/,/5EA17925/
+,,,,USB Power Delivery.sch,1,,2,,3,,4,,4,/USB Power Delivery/,/5EA232ED/
+,,,,USB_to_UART.sch,1,,2,,3,,4,,5,/USB_to_UART/,/5EA232EF/
+,,,,Connectors.sch,1,,2,,3,,4,,6,/Connectors/,/5EA28FEB/
+,,1,2020-04-03,MPU9250.sch,1,,2,,3,,4,,7,/MPU9250/,/5EA28FED/
