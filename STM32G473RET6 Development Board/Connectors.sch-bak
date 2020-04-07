@@ -424,30 +424,6 @@ Wire Wire Line
 	3350 1350 3450 1350
 Wire Wire Line
 	3350 1450 3500 1450
-$Comp
-L Device:R_Small R17
-U 1 1 5E89E790
-P 3400 850
-F 0 "R17" H 3500 900 50  0000 L CNN
-F 1 "4.7k" H 3459 805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3400 850 50  0001 C CNN
-F 3 "~" H 3400 850 50  0001 C CNN
-	1    3400 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R16
-U 1 1 5E89F635
-P 3250 850
-F 0 "R16" H 3100 900 50  0000 L CNN
-F 1 "4.7k" H 3050 800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3250 850 50  0001 C CNN
-F 3 "~" H 3250 850 50  0001 C CNN
-	1    3250 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3250 950  3250 1200
 Wire Wire Line
 	3250 1200 3450 1200
 Wire Wire Line
@@ -456,8 +432,6 @@ Connection ~ 3450 1350
 Wire Wire Line
 	3450 1350 4300 1350
 Wire Wire Line
-	3400 950  3400 1150
-Wire Wire Line
 	3400 1150 3500 1150
 Wire Wire Line
 	3500 1150 3500 1450
@@ -465,11 +439,7 @@ Connection ~ 3500 1450
 Wire Wire Line
 	3500 1450 4300 1450
 Wire Wire Line
-	3250 750  3250 700 
-Wire Wire Line
 	3250 700  3350 700 
-Wire Wire Line
-	3400 700  3400 750 
 Wire Wire Line
 	3350 700  3350 600 
 Connection ~ 3350 700 
@@ -527,9 +497,11 @@ $Comp
 L Connector:Conn_ARM_JTAG_SWD_10 J?
 U 1 1 5E9AFA4D
 P 1850 4200
-F 0 "J?" H 1407 4246 50  0000 R CNN
+AR Path="/5EA17344/5E9AFA4D" Ref="J?"  Part="1" 
+AR Path="/5EA28FEB/5E9AFA4D" Ref="J8"  Part="1" 
+F 0 "J8" H 1407 4246 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 1407 4155 50  0000 R CNN
-F 2 "" H 1850 4200 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 1850 4200 50  0001 C CNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 1500 2950 50  0001 C CNN
 	1    1850 4200
 	1    0    0    -1  
@@ -562,10 +534,10 @@ Connection ~ 1850 3550
 Wire Wire Line
 	1850 3550 1850 3400
 $Comp
-L power:GNDPWR #PWR?
+L power:GNDPWR #PWR0122
 U 1 1 5E9E6439
 P 2050 5150
-F 0 "#PWR?" H 2050 4950 50  0001 C CNN
+F 0 "#PWR0122" H 2050 4950 50  0001 C CNN
 F 1 "GNDPWR" H 2054 4996 50  0000 C CNN
 F 2 "" H 2050 5100 50  0001 C CNN
 F 3 "" H 2050 5100 50  0001 C CNN
@@ -579,4 +551,12 @@ Wire Wire Line
 Connection ~ 1800 5100
 Wire Wire Line
 	1800 5100 1800 5150
+Text GLabel 2450 4300 2    50   Input ~ 0
+PB3
+Wire Wire Line
+	2450 4300 2350 4300
+Wire Wire Line
+	3250 700  3250 1200
+Wire Wire Line
+	3400 700  3400 1150
 $EndSCHEMATC

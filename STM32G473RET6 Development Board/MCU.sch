@@ -126,8 +126,6 @@ Wire Wire Line
 	2550 4300 2550 4550
 Wire Wire Line
 	2950 4300 2950 4550
-Text Label 2950 4550 3    50   ~ 0
-PB10
 Wire Wire Line
 	3450 3200 3700 3200
 Wire Wire Line
@@ -944,8 +942,6 @@ Wire Wire Line
 Connection ~ 5700 4100
 Wire Wire Line
 	5700 4100 5600 4100
-Text Label 5700 3800 1    50   ~ 0
-NRST
 Text GLabel 5050 4100 0    50   Input ~ 0
 +3.3V
 Text GLabel 1200 3750 3    50   Input ~ 0
@@ -1028,4 +1024,8 @@ Wire Wire Line
 Connection ~ 5900 3150
 Wire Wire Line
 	6850 3150 6650 3150
+Text GLabel 5700 3800 0    50   Input ~ 0
+NRST
+Text GLabel 2950 4550 3    50   Input ~ 0
+PB10
 $EndSCHEMATC

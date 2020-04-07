@@ -133,7 +133,7 @@ L Device:C_Small C20
 U 1 1 5E88E605
 P 3900 1050
 F 0 "C20" H 3700 1100 50  0000 L CNN
-F 1 "4.7U" H 3500 1000 50  0000 L CNN
+F 1 "4.7U" H 3700 950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3900 1050 50  0001 C CNN
 F 3 "~" H 3900 1050 50  0001 C CNN
 	1    3900 1050
@@ -449,7 +449,7 @@ F 3 "" H 4400 5250 50  0001 C CNN
 $EndComp
 NoConn ~ 4950 4600
 Wire Wire Line
-	4950 3700 6050 3700
+	4950 3700 5850 3700
 Wire Wire Line
 	4950 3800 5450 3800
 $Comp
@@ -475,15 +475,8 @@ F 3 "~" H 5850 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5850 3500 5850 3800
-Connection ~ 5850 3800
-Wire Wire Line
-	5850 3800 6050 3800
-Wire Wire Line
 	5450 3500 5450 3800
 Connection ~ 5450 3800
-Wire Wire Line
-	5450 3800 5850 3800
 $Comp
 L Device:R_Small R12
 U 1 1 5E88628E
@@ -550,4 +543,15 @@ Wire Wire Line
 Connection ~ 2300 4300
 Wire Wire Line
 	2300 4300 2200 4300
+Wire Wire Line
+	5450 3800 6050 3800
+Wire Wire Line
+	5850 3500 5850 3700
+Connection ~ 5850 3700
+Wire Wire Line
+	5850 3700 6050 3700
+Text Label 3250 4400 0    50   ~ 0
+D+
+Text Label 3250 4500 0    50   ~ 0
+D-
 $EndSCHEMATC
