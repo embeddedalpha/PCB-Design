@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 7874 7874
 encoding utf-8
-Sheet 3 7
+Sheet 3 6
 Title "STM32G473RETx "
 Date ""
 Rev "1"
@@ -100,8 +100,6 @@ Wire Wire Line
 	2850 4300 2850 4450
 Wire Wire Line
 	2850 4450 2800 4450
-Wire Wire Line
-	1950 950  1950 1200
 Wire Wire Line
 	1850 950  1850 1200
 Wire Wire Line
@@ -512,10 +510,6 @@ Wire Wire Line
 Connection ~ 2200 6600
 Wire Wire Line
 	2200 6600 2400 6600
-Text Label 3500 2300 0    50   ~ 0
-D+
-Text Label 3500 2400 0    50   ~ 0
-D-
 Text GLabel 1200 1700 1    50   Input ~ 0
 +3.3V
 Wire Wire Line
@@ -633,8 +627,6 @@ Text GLabel 2150 950  1    50   Input ~ 0
 PB6
 Text GLabel 2050 950  1    50   Input ~ 0
 PB7
-Text GLabel 1950 950  1    50   Input ~ 0
-PB8
 Text GLabel 1850 950  1    50   Input ~ 0
 PB9
 Text GLabel 6900 5000 1    50   Input ~ 0
@@ -1028,4 +1020,12 @@ Text GLabel 5700 3800 0    50   Input ~ 0
 NRST
 Text GLabel 2950 4550 3    50   Input ~ 0
 PB10
+Wire Wire Line
+	1950 700  2100 700 
+Wire Wire Line
+	2100 700  2100 650 
+Wire Wire Line
+	1950 700  1950 1200
+Text GLabel 2100 650  2    50   Input ~ 0
+PB8
 $EndSCHEMATC

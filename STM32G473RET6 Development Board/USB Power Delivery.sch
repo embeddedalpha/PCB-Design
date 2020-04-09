@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 7874 7874
 encoding utf-8
-Sheet 4 7
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -122,8 +122,6 @@ F 3 "~" H 2850 3700 50  0001 C CNN
 	1    2850 3700
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	2950 3700 3200 3700
 $Comp
 L Device:R_Small R4
 U 1 1 5EA9475E
@@ -137,15 +135,13 @@ F 3 "~" H 2850 3500 50  0001 C CNN
 	1    2850 3500
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	2950 3500 3200 3500
 Text Label 2550 3700 0    50   ~ 0
 DA+
 Text Label 2500 3500 0    50   ~ 0
 DA-
-Text GLabel 3200 3700 2    50   Input ~ 0
+Text GLabel 3400 3700 2    50   Input ~ 0
 PA12
-Text GLabel 3200 3500 2    50   Input ~ 0
+Text GLabel 3400 3500 2    50   Input ~ 0
 PA11
 Text GLabel 2500 3150 2    50   Input ~ 0
 PB6
@@ -354,4 +350,8 @@ Wire Wire Line
 	2500 3250 2400 3250
 Wire Wire Line
 	2200 3250 2150 3250
+Wire Wire Line
+	2950 3500 3400 3500
+Wire Wire Line
+	2950 3700 3400 3700
 $EndSCHEMATC

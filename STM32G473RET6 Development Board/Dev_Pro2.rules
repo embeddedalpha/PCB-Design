@@ -1,0 +1,103 @@
+
+(rules PCB Dev_Pro2
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 858)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.2)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.4)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-Power" "Via[0-1]_800:400_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-1]_800:400_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND "Net-(C1-Pad1)" +3.3V "/MCU/OSC32_IN" "Net-(C10-Pad1)" "/MCU/OSC8_IN" "Net-(C12-Pad1)" +5V
+    "Net-(D1-Pad1)" "Net-(D2-Pad2)" "Net-(D3-Pad2)" PC5 "Net-(D4-Pad2)" PA4 "Net-(F1-Pad1)" PB9
+    PB6 PB5 PB4 PB3 PD2 PC12 PC11 PC10
+    PA15 PA14 PA13 PA12 PA11 PA10 PA9 PA8
+    PC9 PC8 PC7 PC6 PB15 PB14 PB13 PB12
+    PB11 PB2 PB1 PB0 PC4 PA7 PA6 PA5
+    PA3 PA2 PA1 PA0 PC3 PC2 PC1 PC0
+    "/MCU/OSC8_OUT" "/MCU/OSC32_OUT" PC13 "Net-(J2-PadB8)" "/USB Power Delivery/DA-" "/USB Power Delivery/DA+" "Net-(J2-PadA8)" NRST
+    "Net-(J8-Pad8)" "Net-(J8-Pad7)" "Net-(P1-PadA5)" "Net-(R10-Pad1)" "Net-(R11-Pad2)" "Net-(U3-Pad24)" "Net-(U3-Pad23)" "Net-(U3-Pad22)"
+    "Net-(U3-Pad19)" "Net-(U3-Pad18)" "Net-(U3-Pad17)" "Net-(U3-Pad16)" "Net-(U3-Pad14)" "Net-(U3-Pad13)" "Net-(U3-Pad12)" "Net-(U3-Pad11)"
+    "Net-(U3-Pad10)" "Net-(U3-Pad1)" "/USB_to_UART/D+" "/USB_to_UART/D-" "Net-(C29-Pad2)" "Net-(C30-Pad2)" PB7 PB10
+    "Net-(J2-PadA5)" "Net-(J2-PadB5)" PB8
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 2765.6)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

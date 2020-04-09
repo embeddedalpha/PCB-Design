@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 7874 7874
 encoding utf-8
-Sheet 5 7
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -334,54 +334,6 @@ Wire Wire Line
 Connection ~ 1450 6050
 Wire Wire Line
 	1450 6050 1600 6050
-$Comp
-L Device:R_Small R14
-U 1 1 5E89E449
-P 9050 4600
-F 0 "R14" H 9109 4646 50  0000 L CNN
-F 1 "22.1K" H 9109 4555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9050 4600 50  0001 C CNN
-F 3 "~" H 9050 4600 50  0001 C CNN
-	1    9050 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R15
-U 1 1 5E89E78A
-P 9050 5050
-F 0 "R15" H 9109 5096 50  0000 L CNN
-F 1 "47.5K" H 9109 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9050 5050 50  0001 C CNN
-F 3 "~" H 9050 5050 50  0001 C CNN
-	1    9050 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9050 4950 9050 4850
-Wire Wire Line
-	9050 4500 9050 4300
-Text GLabel 9050 4300 1    50   Input ~ 0
-+5V
-Wire Wire Line
-	9050 5150 9050 5350
-$Comp
-L power:GND #PWR0138
-U 1 1 5E8A2860
-P 9050 5350
-F 0 "#PWR0138" H 9050 5100 50  0001 C CNN
-F 1 "GND" H 9055 5177 50  0000 C CNN
-F 2 "" H 9050 5350 50  0001 C CNN
-F 3 "" H 9050 5350 50  0001 C CNN
-	1    9050 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9050 4850 9400 4850
-Connection ~ 9050 4850
-Wire Wire Line
-	9050 4850 9050 4700
-Text Label 9400 4850 0    50   ~ 0
-IO
 NoConn ~ 4950 4300
 NoConn ~ 4950 4400
 NoConn ~ 4950 4500

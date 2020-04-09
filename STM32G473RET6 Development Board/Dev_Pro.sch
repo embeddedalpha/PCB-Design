@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 7874 7874
 encoding utf-8
-Sheet 1 7
+Sheet 1 6
 Title ""
 Date "2020-04-02"
 Rev ""
@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 15500 2850 0    50   ~ 0
-PA2\nPA5\nPA7\nPB0\nPC12
 $Sheet
 S 900  1200 3000 1100
 U 5EA17344
@@ -40,15 +38,9 @@ F0 "USB_to_UART" 50
 F1 "USB_to_UART.sch" 50
 $EndSheet
 $Sheet
-S 900  4400 3000 1100
+S 2600 4300 3000 1100
 U 5EA28FEB
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
-$EndSheet
-$Sheet
-S 4000 4400 3000 1100
-U 5EA28FED
-F0 "MPU9250" 50
-F1 "MPU9250.sch" 50
 $EndSheet
 $EndSCHEMATC
