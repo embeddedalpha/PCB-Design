@@ -1,4 +1,4 @@
-17402884256378345
+17406057608500210
 ASSETS
 B4327
 
@@ -6,6 +6,20 @@ B4327
 0
 5
 1
+ASSETS
+ILI9341 TFT DISPLAY SPI
+
+
+0
+0
+0
+ASSETS
+ILI9341 tft display
+
+
+0
+37
+37
 ASSETS
 PinHeader_1x01_P2.54mm_Horizontal
 Through hole angled pin header, 1x01, 2.54mm pitch, 6mm pin length, single row
