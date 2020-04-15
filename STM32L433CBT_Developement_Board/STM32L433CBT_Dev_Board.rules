@@ -1,0 +1,83 @@
+
+(rules PCB STM32L433CBT_Dev_Board
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 176)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.7)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND +5V +3V3 "/OSC8_IN" "/OSC8_OUT" "/OSC32_IN" "/OSC32_OUT" /NRST
+    /PA9 /PA10 /PC13 "Net-(D5-Pad1)" "Net-(J1-Pad4)" "Net-(J1-Pad1)" /PB12 /PB13
+    /PB14 /PB15 /PB0 /PA8 /PA15 /PB3 /PB4 /PB5
+    /PB6 /PB7 /PB8 /PB9 /PA0 /PA1 /PA2 /PA3
+    /PA4 /PA5 /PA6 /PA7 /PB1 /PB2 /PB10 /PB11
+    /BOOT0 "Net-(J4-Pad5)" /PA13 /PA14 "Net-(J7-Pad4)" "Net-(R1-Pad1)" "Net-(R2-Pad1)" "Net-(U2-Pad1)"
+    "Net-(U2-Pad10)" "Net-(U2-Pad11)" "Net-(U2-Pad12)" "Net-(U2-Pad13)" "Net-(U2-Pad14)" "Net-(U2-Pad16)" "Net-(U2-Pad17)" "Net-(U2-Pad18)"
+    "Net-(U2-Pad19)" "Net-(U2-Pad22)" "Net-(U2-Pad23)" "Net-(U2-Pad24)" "Net-(U3-Pad3)" "Net-(U3-Pad7)" /D+ "/D-"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
