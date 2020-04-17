@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Trax-rescue)(type Legacy)(uri ${KIPRJMOD}/Trax-rescue.lib)(options "")(descr ""))
+)
