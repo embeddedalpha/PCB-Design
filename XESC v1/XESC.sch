@@ -14,75 +14,49 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Q_NMOS_DGS H1
-U 1 1 5EA3FE88
-P 4140 1240
-F 0 "H1" H 4345 1286 50  0000 L CNN
-F 1 "IRFR3504ZPbF" H 4345 1195 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 4340 1340 50  0001 C CNN
-F 3 "https://www.mouser.in/datasheet/2/196/irfr3504zpbf-1228353.pdf" H 4140 1240 50  0001 C CNN
-	1    4140 1240
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_DGS L1
-U 1 1 5EA40A31
-P 4140 1790
-F 0 "L1" H 4345 1836 50  0000 L CNN
-F 1 "IRFR3504ZPbF" H 4345 1745 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 4340 1890 50  0001 C CNN
-F 3 "https://www.mouser.in/datasheet/2/196/irfr3504zpbf-1228353.pdf" H 4140 1790 50  0001 C CNN
-	1    4140 1790
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4240 1040 4240 910 
-$Comp
 L power:VDD #PWR012
 U 1 1 5EA42216
-P 4240 880
-F 0 "#PWR012" H 4240 730 50  0001 C CNN
-F 1 "VDD" H 4257 1053 50  0000 C CNN
-F 2 "" H 4240 880 50  0001 C CNN
-F 3 "" H 4240 880 50  0001 C CNN
-	1    4240 880 
+P 4380 1110
+F 0 "#PWR012" H 4380 960 50  0001 C CNN
+F 1 "VDD" H 4397 1283 50  0000 C CNN
+F 2 "" H 4380 1110 50  0001 C CNN
+F 3 "" H 4380 1110 50  0001 C CNN
+	1    4380 1110
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4240 1990 4240 2080
 $Comp
 L power:GND #PWR013
 U 1 1 5EA42689
-P 4240 2140
-F 0 "#PWR013" H 4240 1890 50  0001 C CNN
-F 1 "GND" H 4245 1967 50  0000 C CNN
-F 2 "" H 4240 2140 50  0001 C CNN
-F 3 "" H 4240 2140 50  0001 C CNN
-	1    4240 2140
-	1    0    0    -1  
+P 4880 1160
+F 0 "#PWR013" H 4880 910 50  0001 C CNN
+F 1 "GND" H 4885 987 50  0000 C CNN
+F 2 "" H 4880 1160 50  0001 C CNN
+F 3 "" H 4880 1160 50  0001 C CNN
+	1    4880 1160
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R6
 U 1 1 5EA42BD8
-P 3680 1240
-F 0 "R6" V 3484 1240 50  0000 C CNN
-F 1 "100" V 3575 1240 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 3680 1240 50  0001 C CNN
-F 3 "~" H 3680 1240 50  0001 C CNN
-	1    3680 1240
+P 3820 1420
+F 0 "R6" V 3624 1420 50  0000 C CNN
+F 1 "100" V 3715 1420 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3820 1420 50  0001 C CNN
+F 3 "~" H 3820 1420 50  0001 C CNN
+	1    3820 1420
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3780 1240 3940 1240
+	3920 1420 4080 1420
 Wire Wire Line
-	3780 1790 3940 1790
+	3920 1820 4080 1820
 Wire Wire Line
-	3580 1240 3310 1240
-Text GLabel 3310 1240 0    50   Input ~ 0
+	3720 1420 3450 1420
+Text GLabel 3450 1420 0    50   Input ~ 0
 H1
 Wire Wire Line
-	3580 1790 3310 1790
-Text GLabel 3310 1790 0    50   Input ~ 0
+	3720 1820 3450 1820
+Text GLabel 3450 1820 0    50   Input ~ 0
 L1
 $Comp
 L Driver_FET:IR2101 U3
@@ -144,23 +118,14 @@ Wire Wire Line
 	2330 1950 2330 2440
 Wire Wire Line
 	2330 2440 1880 2440
-Wire Wire Line
-	4240 1440 4240 1510
-Wire Wire Line
-	4240 1510 4420 1510
-Wire Wire Line
-	4240 1590 4240 1510
-Connection ~ 4240 1510
-Text GLabel 4420 1510 2    50   Input ~ 0
+Text GLabel 4810 1620 2    50   Input ~ 0
 CONN_A
 Wire Wire Line
 	2330 2440 2440 2440
 Connection ~ 2330 2440
 Text GLabel 2440 2440 2    50   Input ~ 0
 V1
-Wire Wire Line
-	4240 1510 3870 1510
-Text GLabel 3870 1510 0    50   Input ~ 0
+Text GLabel 4670 1890 3    50   Input ~ 0
 VS1
 Wire Wire Line
 	1880 2540 2040 2540
@@ -229,148 +194,16 @@ F 3 "" H 1040 1730 50  0001 C CNN
 	1    1040 1730
 	1    0    0    -1  
 $EndComp
-Connection ~ 4240 910 
-Wire Wire Line
-	4240 910  4240 880 
 $Comp
 L Device:C_Small C7
 U 1 1 5EA61AE7
-P 5120 1030
-F 0 "C7" H 5212 1076 50  0000 L CNN
-F 1 "4.7U" H 5212 985 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3.9" H 5120 1030 50  0001 C CNN
-F 3 "~" H 5120 1030 50  0001 C CNN
-	1    5120 1030
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5120 930  5120 910 
-Wire Wire Line
-	4240 910  5120 910 
-Wire Wire Line
-	5120 1130 5120 2080
-Wire Wire Line
-	5120 2080 4240 2080
-Connection ~ 4240 2080
-Wire Wire Line
-	4240 2080 4240 2140
-$Comp
-L Device:Q_NMOS_DGS H3
-U 1 1 5EA6B293
-P 4160 3120
-F 0 "H3" H 4365 3166 50  0000 L CNN
-F 1 "IRFR3504ZPbF" H 4365 3075 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 4360 3220 50  0001 C CNN
-F 3 "https://www.mouser.in/datasheet/2/196/irfr3504zpbf-1228353.pdf" H 4160 3120 50  0001 C CNN
-	1    4160 3120
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_DGS L3
-U 1 1 5EA6B299
-P 4160 3670
-F 0 "L3" H 4365 3716 50  0000 L CNN
-F 1 "IRFR3504ZPbF" H 4365 3625 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 4360 3770 50  0001 C CNN
-F 3 "https://www.mouser.in/datasheet/2/196/irfr3504zpbf-1228353.pdf" H 4160 3670 50  0001 C CNN
-	1    4160 3670
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4260 2920 4260 2790
-$Comp
-L power:VDD #PWR016
-U 1 1 5EA6B2A0
-P 4260 2760
-F 0 "#PWR016" H 4260 2610 50  0001 C CNN
-F 1 "VDD" H 4277 2933 50  0000 C CNN
-F 2 "" H 4260 2760 50  0001 C CNN
-F 3 "" H 4260 2760 50  0001 C CNN
-	1    4260 2760
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4260 3870 4260 3960
-$Comp
-L power:GND #PWR017
-U 1 1 5EA6B2A7
-P 4260 4020
-F 0 "#PWR017" H 4260 3770 50  0001 C CNN
-F 1 "GND" H 4265 3847 50  0000 C CNN
-F 2 "" H 4260 4020 50  0001 C CNN
-F 3 "" H 4260 4020 50  0001 C CNN
-	1    4260 4020
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 3120 3960 3120
-Wire Wire Line
-	3800 3670 3960 3670
-Wire Wire Line
-	3600 3120 3330 3120
-Text GLabel 3330 3120 0    50   Input ~ 0
-H2
-Text GLabel 3310 3670 0    50   Input ~ 0
-L2
-Wire Wire Line
-	4260 3320 4260 3390
-Wire Wire Line
-	4260 3390 4440 3390
-Wire Wire Line
-	4260 3470 4260 3390
-Connection ~ 4260 3390
-Text GLabel 4440 3390 2    50   Input ~ 0
-CONN_B
-Wire Wire Line
-	4260 3390 3890 3390
-Text GLabel 3890 3390 0    50   Input ~ 0
-VS2
-Connection ~ 4260 2790
-Wire Wire Line
-	4260 2790 4260 2760
-$Comp
-L Device:C_Small C9
-U 1 1 5EA6B2C8
-P 5140 2910
-F 0 "C9" H 5232 2956 50  0000 L CNN
-F 1 "4.7U" H 5232 2865 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3.9" H 5140 2910 50  0001 C CNN
-F 3 "~" H 5140 2910 50  0001 C CNN
-	1    5140 2910
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5140 2810 5140 2790
-Wire Wire Line
-	4260 2790 5140 2790
-Wire Wire Line
-	5140 3010 5140 3960
-Wire Wire Line
-	5140 3960 4260 3960
-Connection ~ 4260 3960
-Wire Wire Line
-	4260 3960 4260 4020
-$Comp
-L Device:Q_NMOS_DGS H2
-U 1 1 5EA6DF61
-P 4150 4930
-F 0 "H2" H 4355 4976 50  0000 L CNN
-F 1 "IRFR3504ZPbF" H 4355 4885 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 4350 5030 50  0001 C CNN
-F 3 "https://www.mouser.in/datasheet/2/196/irfr3504zpbf-1228353.pdf" H 4150 4930 50  0001 C CNN
-	1    4150 4930
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_DGS L2
-U 1 1 5EA6DF67
-P 4150 5480
-F 0 "L2" H 4355 5526 50  0000 L CNN
-F 1 "IRFR3504ZPbF" H 4355 5435 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 4350 5580 50  0001 C CNN
-F 3 "https://www.mouser.in/datasheet/2/196/irfr3504zpbf-1228353.pdf" H 4150 5480 50  0001 C CNN
-	1    4150 5480
-	1    0    0    -1  
+P 4650 1160
+F 0 "C7" H 4742 1206 50  0000 L CNN
+F 1 "4.7U" H 4742 1115 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x3.9" H 4650 1160 50  0001 C CNN
+F 3 "~" H 4650 1160 50  0001 C CNN
+	1    4650 1160
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4250 4730 4250 4600
@@ -2653,8 +2486,6 @@ PHASE_C__ADC
 NoConn ~ 9230 1500
 Text GLabel 9540 4070 2    50   Input ~ 0
 EN
-Wire Wire Line
-	3310 3670 3600 3670
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5FA1FC49
@@ -2682,34 +2513,12 @@ Wire Wire Line
 $Comp
 L Device:R_Small R7
 U 1 1 5FAE87FC
-P 3680 1790
-F 0 "R7" V 3484 1790 50  0000 C CNN
-F 1 "100" V 3575 1790 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 3680 1790 50  0001 C CNN
-F 3 "~" H 3680 1790 50  0001 C CNN
-	1    3680 1790
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R10
-U 1 1 5FAE902A
-P 3700 3120
-F 0 "R10" V 3504 3120 50  0000 C CNN
-F 1 "100" V 3595 3120 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 3700 3120 50  0001 C CNN
-F 3 "~" H 3700 3120 50  0001 C CNN
-	1    3700 3120
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R11
-U 1 1 5FAEC53B
-P 3700 3670
-F 0 "R11" V 3504 3670 50  0000 C CNN
-F 1 "100" V 3595 3670 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 3700 3670 50  0001 C CNN
-F 3 "~" H 3700 3670 50  0001 C CNN
-	1    3700 3670
+P 3820 1820
+F 0 "R7" V 3624 1820 50  0000 C CNN
+F 1 "100" V 3715 1820 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3820 1820 50  0001 C CNN
+F 3 "~" H 3820 1820 50  0001 C CNN
+	1    3820 1820
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2822,4 +2631,179 @@ F 3 "~" H 5050 6630 50  0001 C CNN
 	1    5050 6630
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:Q_NMOS_GDS H3
+U 1 1 5EAA13C3
+P 4150 4930
+F 0 "H3" H 4355 4976 50  0000 L CNN
+F 1 "IRFR3504ZPbF" H 4355 4885 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 4350 5030 50  0001 C CNN
+F 3 "https://www.mouser.in/datasheet/2/196/irfr3504zpbf-1228353.pdf" H 4150 4930 50  0001 C CNN
+	1    4150 4930
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS L3
+U 1 1 5EAA6376
+P 4150 5480
+F 0 "L3" H 4355 5526 50  0000 L CNN
+F 1 "IRFR3504ZPbF" H 4355 5435 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 4350 5580 50  0001 C CNN
+F 3 "https://www.mouser.in/datasheet/2/196/irfr3504zpbf-1228353.pdf" H 4150 5480 50  0001 C CNN
+	1    4150 5480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRFI4212H Q?
+U 1 1 5EB0DBE7
+P 4280 1620
+F 0 "Q?" H 4524 1666 50  0000 L CNN
+F 1 "IRFI4212H" H 4420 1550 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220F-5_P3.4x2.06mm_StaggerEven_Lead1.86mm_Vertical" H 4280 1620 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irfi4212h-117p.pdf?fileId=5546d462533600a401535623fc841f7a" H 4280 1620 50  0001 L CNN
+	1    4280 1620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4380 1220 4380 1160
+Wire Wire Line
+	4810 1620 4670 1620
+Wire Wire Line
+	4670 1890 4670 1620
+Connection ~ 4670 1620
+Wire Wire Line
+	4670 1620 4480 1620
+$Comp
+L power:GND #PWR?
+U 1 1 5EBFC7DE
+P 4380 2160
+F 0 "#PWR?" H 4380 1910 50  0001 C CNN
+F 1 "GND" H 4385 1987 50  0000 C CNN
+F 2 "" H 4380 2160 50  0001 C CNN
+F 3 "" H 4380 2160 50  0001 C CNN
+	1    4380 2160
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4380 2020 4380 2160
+Wire Wire Line
+	4550 1160 4380 1160
+Connection ~ 4380 1160
+Wire Wire Line
+	4380 1160 4380 1110
+Wire Wire Line
+	4750 1160 4880 1160
+$Comp
+L power:VDD #PWR?
+U 1 1 5ECB80A2
+P 4400 2740
+F 0 "#PWR?" H 4400 2590 50  0001 C CNN
+F 1 "VDD" H 4417 2913 50  0000 C CNN
+F 2 "" H 4400 2740 50  0001 C CNN
+F 3 "" H 4400 2740 50  0001 C CNN
+	1    4400 2740
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ECB80A8
+P 4900 2790
+F 0 "#PWR?" H 4900 2540 50  0001 C CNN
+F 1 "GND" H 4905 2617 50  0000 C CNN
+F 2 "" H 4900 2790 50  0001 C CNN
+F 3 "" H 4900 2790 50  0001 C CNN
+	1    4900 2790
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5ECB80AE
+P 3840 3050
+F 0 "R?" V 3644 3050 50  0000 C CNN
+F 1 "100" V 3735 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3840 3050 50  0001 C CNN
+F 3 "~" H 3840 3050 50  0001 C CNN
+	1    3840 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3940 3050 4100 3050
+Wire Wire Line
+	3940 3450 4100 3450
+Wire Wire Line
+	3740 3050 3470 3050
+Wire Wire Line
+	3740 3450 3470 3450
+$Comp
+L Device:C_Small C?
+U 1 1 5ECB80BC
+P 4670 2790
+F 0 "C?" H 4762 2836 50  0000 L CNN
+F 1 "4.7U" H 4762 2745 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x3.9" H 4670 2790 50  0001 C CNN
+F 3 "~" H 4670 2790 50  0001 C CNN
+	1    4670 2790
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5ECB80C2
+P 3840 3450
+F 0 "R?" V 3644 3450 50  0000 C CNN
+F 1 "100" V 3735 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3840 3450 50  0001 C CNN
+F 3 "~" H 3840 3450 50  0001 C CNN
+	1    3840 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:IRFI4212H Q?
+U 1 1 5ECB80C8
+P 4300 3250
+F 0 "Q?" H 4544 3296 50  0000 L CNN
+F 1 "IRFI4212H" H 4440 3180 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220F-5_P3.4x2.06mm_StaggerEven_Lead1.86mm_Vertical" H 4300 3250 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irfi4212h-117p.pdf?fileId=5546d462533600a401535623fc841f7a" H 4300 3250 50  0001 L CNN
+	1    4300 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2850 4400 2790
+Wire Wire Line
+	4830 3250 4690 3250
+Wire Wire Line
+	4690 3520 4690 3250
+Connection ~ 4690 3250
+Wire Wire Line
+	4690 3250 4500 3250
+$Comp
+L power:GND #PWR?
+U 1 1 5ECB80D3
+P 4400 3790
+F 0 "#PWR?" H 4400 3540 50  0001 C CNN
+F 1 "GND" H 4405 3617 50  0000 C CNN
+F 2 "" H 4400 3790 50  0001 C CNN
+F 3 "" H 4400 3790 50  0001 C CNN
+	1    4400 3790
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3650 4400 3790
+Wire Wire Line
+	4570 2790 4400 2790
+Connection ~ 4400 2790
+Wire Wire Line
+	4400 2790 4400 2740
+Wire Wire Line
+	4770 2790 4900 2790
+Text GLabel 3470 3050 0    50   Input ~ 0
+H2
+Text GLabel 3470 3450 0    50   Input ~ 0
+L2
+Text GLabel 4830 3250 2    50   Input ~ 0
+CONN_B
+Text GLabel 4690 3520 3    50   Input ~ 0
+VS2
+Text Notes -3170 1040 0    50   ~ 0
+NVMFD6H840NL\nhttps://www.mouser.in/datasheet/2/308/NVMFD6H840NL-D-1634335.pdf
 $EndSCHEMATC
