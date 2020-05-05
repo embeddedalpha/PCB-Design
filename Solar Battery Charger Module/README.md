@@ -4,7 +4,7 @@
 
 ![Battery_Charger_black](https://user-images.githubusercontent.com/38166489/80967518-1fbac980-8e34-11ea-8c8d-a5b4a1b3931b.png)
 
-<h4> 2: </h4>
+<h4> 2: Green </h4>
 
 ![Battery_Charger_1](https://user-images.githubusercontent.com/38166489/80967513-1e899c80-8e34-11ea-964d-a1cf039ef3e5.png)
 
