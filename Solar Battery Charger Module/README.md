@@ -1,6 +1,6 @@
 <h1> Solar Battery Charger Module </h1>
 
-<h4> 1: </h4>
+<h4> 1: Black</h4>
 
 ![Battery_Charger_black](https://user-images.githubusercontent.com/38166489/80967518-1fbac980-8e34-11ea-8c8d-a5b4a1b3931b.png)
 
