@@ -55,10 +55,10 @@ U 5EC12809
 F0 "Radio" 50
 F1 "Radio.sch" 50
 $EndSheet
-Text Notes 2950 8440 0    591  ~ 0
+Text Notes 2950 8440 0    591  ~ 118
 Radio
-Text Notes 3020 5360 0    591  ~ 0
+Text Notes 3020 5360 0    591  ~ 118
 Power
-Text Notes 2170 2120 0    591  ~ 0
+Text Notes 2170 2120 0    591  ~ 118
 Processor
 $EndSCHEMATC

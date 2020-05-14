@@ -1989,11 +1989,6 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "C:/Users/91816/Downloads/KICAD LIBRARY/3D/S2B-PH-SM4-TB.stp"
-      (offset (xyz 0 5.5 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 180))
-    )
   )
 
   (module Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical (layer F.SIGNAL) (tedit 5B78AD87) (tstamp 5EBDD627)
@@ -2047,11 +2042,6 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
-    )
-    (model "C:/Users/91816/Downloads/KICAD LIBRARY/3D/S2B-PH-SM4-TB.stp"
-      (offset (xyz 0 6 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 180))
     )
   )
 
