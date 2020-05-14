@@ -1,4 +1,4 @@
-update=5/12/2020 3:28:10 PM
+update=5/14/2020 12:43:14 PM
 version=1
 last_client=kicad
 [general]
@@ -26,10 +26,10 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=Teseo_Mod.net
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
-AllowMicroVias=0
-AllowBlindVias=0
+AllowMicroVias=1
+AllowBlindVias=1
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.15
@@ -40,6 +40,8 @@ MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.18
+TrackWidth3=0.3
+TrackWidth4=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -74,13 +76,13 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=In1.Cu
-Type=0
-Enabled=0
+Name=Ground_Plane
+Type=1
+Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
-Type=0
-Enabled=0
+Name=Power_Plane
+Type=1
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -238,7 +240,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.15
+Clearance=0.12
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
