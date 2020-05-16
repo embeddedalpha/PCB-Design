@@ -255,8 +255,6 @@ F 3 "~" H 4590 940 50  0001 C CNN
 	1    4590 940 
 	-1   0    0    1   
 $EndComp
-Text GLabel 4240 860  0    50   Input ~ 0
-V_BAT
 Wire Wire Line
 	4440 860  4240 860 
 Wire Wire Line
@@ -1423,19 +1421,6 @@ $EndComp
 Connection ~ 4590 760 
 NoConn ~ 3460 7590
 $Comp
-L Device:Crystal_GND24 Y?
-U 1 1 5ECD13DD
-P 6670 6520
-AR Path="/5EBFF6BB/5ECD13DD" Ref="Y?"  Part="1" 
-AR Path="/5EC12809/5ECD13DD" Ref="Y3"  Part="1" 
-F 0 "Y3" V 6680 5910 50  0000 L CNN
-F 1 "Crystal_GND24" V 6760 5470 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" H 6670 6520 50  0001 C CNN
-F 3 "~" H 6670 6520 50  0001 C CNN
-	1    6670 6520
-	0    -1   1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5ECD13E3
 P 6470 6520
@@ -1531,4 +1516,39 @@ Text GLabel 5890 6160 0    50   Input ~ 0
 XTA
 Text GLabel 5870 6880 0    50   Input ~ 0
 XTB
+$Comp
+L power:GND #PWR0101
+U 1 1 5EBEFB0A
+P 1370 9260
+F 0 "#PWR0101" H 1370 9010 50  0001 C CNN
+F 1 "GND" H 1375 9087 50  0000 C CNN
+F 2 "" H 1370 9260 50  0001 C CNN
+F 3 "" H 1370 9260 50  0001 C CNN
+	1    1370 9260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_GND23 Y?
+U 1 1 5EC534F0
+P 6670 6520
+AR Path="/5EBFF6BB/5EC534F0" Ref="Y?"  Part="1" 
+AR Path="/5EC12809/5EC534F0" Ref="Y3"  Part="1" 
+F 0 "Y3" V 6624 6764 50  0000 L CNN
+F 1 "Crystal_GND23" V 6715 6764 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" H 6670 6520 50  0001 C CNN
+F 3 "~" H 6670 6520 50  0001 C CNN
+	1    6670 6520
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5EC638D1
+P 4240 860
+F 0 "#PWR0103" H 4240 710 50  0001 C CNN
+F 1 "+3.3V" V 4255 988 50  0000 L CNN
+F 2 "" H 4240 860 50  0001 C CNN
+F 3 "" H 4240 860 50  0001 C CNN
+	1    4240 860 
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
