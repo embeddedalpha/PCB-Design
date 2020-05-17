@@ -241,23 +241,6 @@ Wire Wire Line
 Connection ~ 3030 1370
 Wire Wire Line
 	3030 1370 3180 1370
-$Comp
-L Regular_Use:STC3117IJT IC2
-U 1 1 5EBFF472
-P 3600 5090
-F 0 "IC2" H 4150 5355 50  0000 C CNN
-F 1 "STC3117IJT" H 4150 5264 50  0000 C CNN
-F 2 "ASSETS:BGA9C40P3X3_146X156X66" H 4550 5190 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/STC3117IJT.pdf" H 4550 5090 50  0001 L CNN
-F 4 "Battery Management ANALOG" H 4550 4990 50  0001 L CNN "Description"
-F 5 "0.655" H 4550 4890 50  0001 L CNN "Height"
-F 6 "511-STC3117IJT" H 4550 4790 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-STC3117IJT" H 4550 4690 50  0001 L CNN "Mouser Price/Stock"
-F 8 "STMicroelectronics" H 4550 4590 50  0001 L CNN "Manufacturer_Name"
-F 9 "STC3117IJT" H 4550 4490 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3600 5090
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5670 1370 5990 1370
 Connection ~ 5670 1370
@@ -271,26 +254,6 @@ Wire Notes Line
 	520  2860 520  520 
 Wire Notes Line
 	520  520  7740 520 
-NoConn ~ 3600 5090
-Wire Wire Line
-	3600 5190 3240 5190
-Text GLabel 3240 5190 0    50   Input ~ 0
-SDA
-$Comp
-L power:GND #PWR036
-U 1 1 5EC095C2
-P 3600 5290
-F 0 "#PWR036" H 3600 5040 50  0001 C CNN
-F 1 "GND" V 3605 5162 50  0000 R CNN
-F 2 "" H 3600 5290 50  0001 C CNN
-F 3 "" H 3600 5290 50  0001 C CNN
-	1    3600 5290
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3600 5490 3240 5490
-Text GLabel 3240 5490 0    50   Input ~ 0
-SCL
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5EC0A186
@@ -317,126 +280,6 @@ F 3 "" H 1870 4810 50  0001 C CNN
 	1    1870 4810
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R4
-U 1 1 5EC0DE7D
-P 1870 4710
-F 0 "R4" H 1929 4756 50  0000 L CNN
-F 1 "R_Small" H 1929 4665 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1870 4710 50  0001 C CNN
-F 3 "~" H 1870 4710 50  0001 C CNN
-	1    1870 4710
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1870 4480 1870 4540
-Wire Wire Line
-	4700 5090 4830 5090
-Wire Wire Line
-	4830 5090 4830 4540
-Wire Wire Line
-	4830 4540 1870 4540
-Connection ~ 1870 4540
-Wire Wire Line
-	1870 4540 1870 4610
-Wire Wire Line
-	2770 5390 2770 4380
-Wire Wire Line
-	2770 5390 3600 5390
-Connection ~ 2770 4380
-Wire Wire Line
-	2770 4380 5370 4380
-$Comp
-L Device:R_Small R7
-U 1 1 5EC11458
-P 5740 4690
-F 0 "R7" H 5799 4736 50  0000 L CNN
-F 1 "1K" H 5799 4645 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5740 4690 50  0001 C CNN
-F 3 "~" H 5740 4690 50  0001 C CNN
-	1    5740 4690
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5740 4590 5740 4380
-Connection ~ 5740 4380
-Wire Wire Line
-	5740 4380 6840 4380
-$Comp
-L Device:C_Small C18
-U 1 1 5EC12427
-P 5740 5070
-F 0 "C18" H 5832 5116 50  0000 L CNN
-F 1 "220nF" H 5832 5025 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5740 5070 50  0001 C CNN
-F 3 "~" H 5740 5070 50  0001 C CNN
-	1    5740 5070
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5740 4790 5740 4870
-Wire Wire Line
-	4700 5190 5200 5190
-Wire Wire Line
-	5200 5190 5200 4870
-Wire Wire Line
-	5200 4870 5740 4870
-Connection ~ 5740 4870
-Wire Wire Line
-	5740 4870 5740 4970
-$Comp
-L power:GND #PWR044
-U 1 1 5EC1423C
-P 5740 5170
-F 0 "#PWR044" H 5740 4920 50  0001 C CNN
-F 1 "GND" H 5745 4997 50  0000 C CNN
-F 2 "" H 5740 5170 50  0001 C CNN
-F 3 "" H 5740 5170 50  0001 C CNN
-	1    5740 5170
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C16
-U 1 1 5EC14C8B
-P 5370 5330
-F 0 "C16" H 5462 5376 50  0000 L CNN
-F 1 "1uF" H 5462 5285 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5370 5330 50  0001 C CNN
-F 3 "~" H 5370 5330 50  0001 C CNN
-	1    5370 5330
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5370 5230 5370 5000
-Connection ~ 5370 4380
-Wire Wire Line
-	5370 4380 5740 4380
-$Comp
-L power:GND #PWR042
-U 1 1 5EC16054
-P 5370 5550
-F 0 "#PWR042" H 5370 5300 50  0001 C CNN
-F 1 "GND" H 5375 5377 50  0000 C CNN
-F 2 "" H 5370 5550 50  0001 C CNN
-F 3 "" H 5370 5550 50  0001 C CNN
-	1    5370 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5370 5430 5370 5550
-Wire Wire Line
-	4700 5290 5270 5290
-Wire Wire Line
-	5270 5290 5270 5000
-Wire Wire Line
-	5270 5000 5370 5000
-Connection ~ 5370 5000
-Wire Wire Line
-	5370 5000 5370 4380
-Wire Wire Line
-	4700 5390 4870 5390
-Text GLabel 4870 5390 2    50   Input ~ 0
-ALM
 Wire Notes Line
 	520  2920 7740 2920
 Wire Notes Line
@@ -491,8 +334,6 @@ Wire Wire Line
 Wire Wire Line
 	2320 7200 2320 4380
 Connection ~ 2320 4380
-Wire Wire Line
-	2320 4380 2770 4380
 Wire Wire Line
 	3640 7300 3530 7300
 $Comp
@@ -716,4 +557,130 @@ F 3 "" H 3130 8150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3130 8150 3130 8050
+$Comp
+L Regular_Use:DS2782 U10
+U 1 1 5EC1CB22
+P 3660 4720
+F 0 "U10" H 3885 4895 50  0000 C CNN
+F 1 "DS2782" H 3885 4804 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 3660 4870 50  0001 C CNN
+F 3 "" H 3660 4870 50  0001 C CNN
+	1    3660 4720
+	1    0    0    -1  
+$EndComp
+Text GLabel 4210 5070 2    50   Input ~ 0
+SDA
+Text GLabel 4210 4970 2    50   Input ~ 0
+SCL
+$Comp
+L Device:R_Small R8
+U 1 1 5EC1FF93
+P 3900 5220
+F 0 "R8" H 3959 5266 50  0000 L CNN
+F 1 "1K" H 3959 5175 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3900 5220 50  0001 C CNN
+F 3 "~" H 3900 5220 50  0001 C CNN
+	1    3900 5220
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4210 4870 4520 4870
+Wire Wire Line
+	4520 4870 4520 5220
+Wire Wire Line
+	3560 4870 3410 4870
+Wire Wire Line
+	3410 4870 3410 5220
+Wire Wire Line
+	3410 5220 3800 5220
+NoConn ~ 4210 4770
+$Comp
+L Device:R_Small R7
+U 1 1 5EC28BAB
+P 3230 4770
+F 0 "R7" H 3289 4816 50  0000 L CNN
+F 1 "1K" H 3289 4725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3230 4770 50  0001 C CNN
+F 3 "~" H 3230 4770 50  0001 C CNN
+	1    3230 4770
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5EC28FB1
+P 3000 4760
+F 0 "R4" H 3059 4806 50  0000 L CNN
+F 1 "500" H 3059 4715 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3000 4760 50  0001 C CNN
+F 3 "~" H 3000 4760 50  0001 C CNN
+	1    3000 4760
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3560 4970 3230 4970
+Wire Wire Line
+	3230 4970 3230 4870
+Wire Wire Line
+	3560 5070 3000 5070
+Wire Wire Line
+	3000 5070 3000 4860
+Wire Wire Line
+	2320 4380 3000 4380
+Wire Wire Line
+	1870 4480 1870 4620
+Wire Wire Line
+	3000 4660 3000 4380
+Connection ~ 3000 4380
+Wire Wire Line
+	3000 4380 3230 4380
+Wire Wire Line
+	3230 4670 3230 4380
+Connection ~ 3230 4380
+Wire Wire Line
+	3230 4380 6840 4380
+$Comp
+L Device:C_Small C16
+U 1 1 5EC3C8A5
+P 3000 5250
+F 0 "C16" H 3092 5296 50  0000 L CNN
+F 1 "1nF" H 3092 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 3000 5250 50  0001 C CNN
+F 3 "~" H 3000 5250 50  0001 C CNN
+	1    3000 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5150 3000 5070
+Connection ~ 3000 5070
+Wire Wire Line
+	3000 5350 3000 5580
+Wire Wire Line
+	3000 5580 2990 5580
+$Comp
+L power:GND #PWR05
+U 1 1 5EC41CD0
+P 2990 5580
+F 0 "#PWR05" H 2990 5330 50  0001 C CNN
+F 1 "GND" H 2995 5407 50  0000 C CNN
+F 2 "" H 2990 5580 50  0001 C CNN
+F 3 "" H 2990 5580 50  0001 C CNN
+	1    2990 5580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3410 5220 3390 5220
+Wire Wire Line
+	3390 5220 3390 5410
+Wire Wire Line
+	3390 5410 2460 5410
+Wire Wire Line
+	2460 5410 2460 4620
+Wire Wire Line
+	2460 4620 1870 4620
+Connection ~ 3410 5220
+Connection ~ 1870 4620
+Wire Wire Line
+	1870 4620 1870 4810
+Wire Wire Line
+	4000 5220 4520 5220
 $EndSCHEMATC

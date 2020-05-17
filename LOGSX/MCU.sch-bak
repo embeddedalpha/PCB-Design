@@ -38,8 +38,6 @@ Wire Notes Line
 Wire Notes Line
 	7750 520  7750 3260
 Wire Wire Line
-	1670 2260 1490 2260
-Wire Wire Line
 	3510 2400 3220 2400
 Text GLabel 3220 2400 0    50   Input ~ 0
 OSC32_IN
@@ -803,10 +801,10 @@ F 3 "" H 1380 2260 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MCU_ST_STM32F1:STM32F103C8Tx U?
+L MCU_ST_STM32F1:STM32F103C8Tx U9
 U 1 1 5EC6D163
 P 4210 2900
-F 0 "U?" H 4310 3430 50  0000 C CNN
+F 0 "U9" H 4310 3430 50  0000 C CNN
 F 1 "STM32F103C8Tx" H 4320 3340 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm" H 3610 1500 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 4210 2900 50  0001 C CNN
@@ -815,10 +813,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 $EndComp
 Wire Wire Line
 	2650 1600 3510 1600
-Text GLabel 1670 2260 2    50   Input ~ 0
-BOOT0
-Text GLabel 3510 1800 0    50   Input ~ 0
-BOOT0
 Wire Wire Line
 	3510 4100 3310 4100
 Wire Wire Line
@@ -842,4 +836,10 @@ NoConn ~ 4810 2700
 NoConn ~ 4810 2800
 NoConn ~ 4810 2900
 NoConn ~ 4810 3000
+Wire Wire Line
+	3510 1800 2820 1800
+Wire Wire Line
+	2820 1800 2820 2260
+Wire Wire Line
+	1490 2260 2820 2260
 $EndSCHEMATC
