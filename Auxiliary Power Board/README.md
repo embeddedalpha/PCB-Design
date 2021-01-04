@@ -20,3 +20,5 @@ This board is a daughterboard of a IIoT Data Acquistion Board. The board rectifi
 ### Gerber Files: [Gerber.zip](https://github.com/embeddedalpha/PCB-Design/files/5765942/Gerber.zip)
 
 ### DXF Files: [DXF.zip](https://github.com/embeddedalpha/PCB-Design/files/5765948/DXF.zi
+
+### STEP File: [3D.zip](https://github.com/embeddedalpha/PCB-Design/files/5765976/3D.zip)
