@@ -9,3 +9,4 @@
 ![RP2040_Dev_Boar4](https://user-images.githubusercontent.com/38166489/106179208-b7312b00-61c0-11eb-8fa8-720c9948238d.png)
 
 
+### Schematic : [RP2040_Dev_Board.pdf](https://github.com/embeddedalpha/PCB-Design/files/5889168/RP2040_Dev_Board.pdf)
