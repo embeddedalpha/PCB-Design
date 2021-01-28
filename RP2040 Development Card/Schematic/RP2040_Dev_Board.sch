@@ -1401,10 +1401,6 @@ Wire Wire Line
 	1700 7300 1450 7300
 Wire Wire Line
 	950  7400 1700 7400
-Wire Notes Line
-	550  5400 3300 5400
-Wire Notes Line
-	550  7750 3300 7750
 $Comp
 L Device:C_Small C16
 U 1 1 6073E504
@@ -1740,4 +1736,14 @@ F 3 "~" H 1700 2700 50  0001 C CNN
 	1    1700 2700
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	6150 5400 6150 6450
+Wire Notes Line
+	6150 6450 5350 6450
+Wire Notes Line
+	5350 6450 5350 7750
+Wire Notes Line
+	550  5400 6150 5400
+Wire Notes Line
+	550  7750 5350 7750
 $EndSCHEMATC

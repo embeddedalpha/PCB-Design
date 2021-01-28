@@ -1704,17 +1704,6 @@ Wire Wire Line
 	3950 5950 4100 5950
 Wire Wire Line
 	4100 6150 3950 6150
-$Comp
-L Device:Jumper JP1
-U 1 1 6014517D
-P 1700 2700
-F 0 "JP1" H 1700 2964 50  0000 C CNN
-F 1 "Jumper" H 1700 2873 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 1700 2700 50  0001 C CNN
-F 3 "~" H 1700 2700 50  0001 C CNN
-	1    1700 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2000 2700 2200 2700
 Wire Wire Line
@@ -1740,4 +1729,15 @@ Wire Wire Line
 	3100 1450 3200 1450
 Wire Wire Line
 	3200 1100 3200 1450
+$Comp
+L Device:Jumper JP1
+U 1 1 6014517D
+P 1700 2700
+F 0 "JP1" H 1700 2964 50  0000 C CNN
+F 1 "Jumper" H 1700 2873 50  0000 C CNN
+F 2 "" H 1700 2700 50  0001 C CNN
+F 3 "~" H 1700 2700 50  0001 C CNN
+	1    1700 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
