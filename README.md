@@ -1,2 +1,2 @@
-# PCB-Design    ![visitors](https://visitor-badge.glitch.me/badge?page_id=embeddedalpha.stm32f103c8t6)
+# PCB-Design    ![visitors](https://visitor-badge.glitch.me/badge?page_id=embeddedalpha.PCB-Design)
 Repository for PCB Design Projects
